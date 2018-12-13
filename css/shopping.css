@@ -1,0 +1,247 @@
+.banner{
+	width: 100%;
+}
+.rowe{
+	width: 1200px;
+	margin: 0px auto;
+	margin-top: 50px;
+}
+/*.top{
+	width: 1200px;
+	height: 100px;
+	margin: 0 auto ;
+	background: gray;
+}*/
+
+.CartSwitch {
+	/*width: 1200px;*/
+    overflow: hidden;
+    height: 33px;
+    margin: 0 auto;
+}
+.btnSwitch{
+    float: left;
+    font-weight: 700;
+    font-size: 16px;
+    height: 16px;
+    line-height: 1.1;
+    font-family: 'Hiragino Sans GB','Lantinghei SC','Microsoft Yahei',SimSun;
+    text-align: center;
+    padding: 0 0 15px 0;
+    cursor: pointer;
+    margin-left: -1px;
+}
+.MakePoint{
+	padding-left: 15px;
+}
+.em {
+    color: #f40;
+}
+.number {
+    color: #f40;
+    font-size: 14px;
+    margin: 0 30px 0 5px;
+    font-weight: 400;
+}
+.pipe {
+    width: 1px;
+    height: 12px;
+    display: inline-block;
+    background: #e8e8e8;
+}
+
+.tops{
+	position: relative;
+}
+
+
+.sum {
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 25px;
+    line-height: 25px;
+}
+.price {
+    color: #404040;
+    font-family: Arial,Verdana;
+    font-weight: 700;
+    margin-right: 5px;
+    color: #f40;
+}
+.price em {
+    font-family: Verdana,Arial;
+    padding-left: 2px;
+    font-weight: 700;
+    font-style: normal;
+}
+.total-symbol {
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.submit_btn{
+	display:inline-block;
+	text-align: center;
+	line-height: 29px;
+	background-color: gray;
+	color: white;
+	width: 50px;
+	height: 30px;
+	font-size: 14px;
+}
+.wrap-line {
+    clear: both;
+    background: #e6e6e6;
+    height: 2px;
+    position: relative;
+}
+.wrap-line .floater {
+    background: #f40;
+    height: 2px;
+    width: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+}
+
+
+.cartTable{
+    overflow: hidden;
+    height: 50px;
+    line-height: 50px;
+    color: #3c3c3c;
+}
+
+/*.wp .th-chk {
+    font-size: 12px;
+    text-align: left;
+    position: relative;
+    height: 50px;
+}
+.wp .th-chk .select-all {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 80px;
+}*/
+/*.wp .th-chk .cart-checkbox{
+    margin: -1px 0 0 15px;
+    margin-left: 7px;
+    margin-top: 19px;
+}
+.select-all .cart-checkbox {
+    vertical-align: middle;
+    margin-top: -2px;
+}*/
+
+
+.cart-checkbox input {
+	float: left;
+	margin-top: 18px;
+}
+.cart-checkbox label {
+    float: left;
+    width: 55px;
+}
+
+.wp .th {
+	width: 180px;
+    float: left;
+    text-align: center;
+}
+.wp .item{
+	padding-right: 90px;
+}
+.wp .th .inner {
+    padding-left: 91px;
+}
+.th .inner {
+    padding: 0 0 0 10px;
+}
+/*float-bar-wrapper */
+.float-bar-wrapper {
+    background: #e5e5e5;
+    height: 50px;
+    position: relative;
+    margin-top: 400px;
+}
+.cart-checkbox{
+	position: relative;
+}
+.float-bar-wrapper .cart-checkbox label{
+	position:absolute;
+	top: 0;
+	left: 23px;
+}
+.float-bar-wrapper .cart-checkbox input{
+	margin-top:20px;
+	margin-left: 10px;
+}
+.float-bar-wrapper .select-all {
+    float: left;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    padding-left: 5px;
+}
+.DeleteSelected{
+	display: inline-block;
+	line-height: 50px;
+	height: 50px;
+	text-align: center;
+	margin-left: 50px;
+}
+.BatchFav{
+	display: inline-block;
+	margin-left: 50px;
+	height: 50px;
+	line-height: 50px;
+}
+.operations a:hover{
+	color: red;
+	text-decoration:underline;
+}
+.float-bar-right{
+	width: 50%;
+	float: right;
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+.amount_sum{
+	display: inline-block;
+	margin-left: 90px;
+	float: left;
+	width: 150px;
+	height: 50px;
+	text-align: center;
+	line-height: 50px;
+}
+.amount_sum em{
+	color: red;
+	padding: 0 5px;
+}
+.price_sum{
+	display: inline-block;
+	margin-left: 40px;
+	float: left;
+	width: 200px;
+	height: 50px;
+	text-align: center;
+	line-height: 50px;
+}
+.btn_area{
+	display: inline-block;
+	float: right;
+	width: 80px;
+	height: 50px;
+	text-align: center;
+	line-height: 50px;
+	background-color: gray;
+}
+.btn_area a{
+
+	color: white;
+}

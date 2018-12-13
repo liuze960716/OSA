@@ -1,0 +1,188 @@
+a {
+    text-decoration: none;
+}
+img {
+    vertical-align: middle;
+}
+.osamainc{
+	width: 1200px;
+	margin: 0 auto;
+	padding: 0px;
+}
+/*osamain01*/
+.osamain01{
+	overflow: hidden;
+	margin-top: 60px;
+	margin-bottom: 30px;
+}
+.osamain01f1 {
+    width: 65.7%;
+    float: left;
+}
+.osamain01f1 .white01{
+    width: 50%;
+    overflow: hidden;
+    position: relative;
+    float: left;
+}
+.osamain01f1 .osamain01imgfr{
+	display: block;
+	width: 50%;
+	height: 30px;
+	color: #fffaf8;
+	background-color: #f75d55;
+	padding-top:0.066667rem;
+	float: left;
+	text-align: center;
+	font-size: 1.326667rem;
+}
+.osamain01f1 .osamain01frspan{
+    display: block;
+    width: 100%;
+    height: 30px;
+    color: #fffaf8;
+    background-color: #f75d55;
+    padding-top:0.066667rem;
+    float: left;
+    text-align: center;
+    font-size: 1.326667rem;
+}
+
+.osamain01f1new .osamain01frspan01{
+    display: block;
+    width: 100%;
+    height: 30px;
+    color: #fffaf8;
+    background-color: #f75d55;
+    text-align: center;
+    font-size: 1.326667rem;
+    margin-bottom: 1.5rem;
+}
+.osamain01f1new .osamain01frspan02{
+    display: block;
+    width: 100%;
+    height: 30px;
+    color: #fffaf8;
+    background-color: #f75d55;
+    padding-top:0.066667rem;
+    float: left;
+    text-align: center;
+    font-size: 1.326667rem;
+}
+/*.osamain02 .osamain01frspan01{
+    display: block;
+    width: 65.7%;
+    height: 30px;
+    color: #fffaf8;
+    background-color: #f75d55;
+    padding-top:0.066667rem;
+    text-align: center;
+    font-size: 1.326667rem;
+}
+*/
+
+.osamain02 .osamain01frspan02{
+    display: block;
+    width: 100%;
+    height: 30px;
+    color: #fffaf8;
+    background-color: #f75d55;
+    padding-top:0.066667rem;
+    text-align: center;
+    font-size: 1.326667rem;
+}
+
+
+
+
+.osamain01f1 .white01 .white01txt {
+    text-align: center;
+    width: 100%;
+    /*position: absolute;
+    top: 0px;
+    left: 0px;*/
+    margin-top: 25%;
+    margin-bottom: 45%;
+}
+
+.osamain01f1 .white01 .t {
+    color: #000;
+    font-size: 2.375rem;
+}
+.osamain01f1 .white01 .b {
+    color: #666;
+    font-size: 1.125rem;
+}
+.osamain01.osamain01fr{
+	float: left;
+}
+.osamainc .osamain01f1new {
+    width: 31.5%;
+    float: right;
+}
+
+
+
+/*osamain02*/
+.osamainc .osamain02 {
+    overflow: hidden;
+    margin-bottom: 1.5rem;
+}
+.osamain02 .osamain02f1{
+    overflow: hidden;
+    width: 65.7%;
+    float: left;
+    margin-right: 2.75%;
+    margin-top: 31px; 
+}
+/*.osamain02 .osamain02fr{
+    width: 65.7%;
+    float: right;
+    margin-right: 2.75%;
+}*/
+.osamain02 .osamain02fr{
+	margin-right:0px; 
+	width: 31.5%;
+    float: right;
+    overflow: hidden;
+}
+/*newpro*/
+.newpro {
+    background: #f8f8f8;
+    width: 100%;
+    overflow: hidden;
+    padding-bottom: 1rem;
+}
+.newpro .t {
+    font-size: 1.375rem;
+    color: #666;
+    text-align: center;
+    font-weight: bold;
+    line-height: 600%;
+}
+/*osalook*/
+.osalook{
+	display: block;
+	width: 100%;
+	position:relative;
+}
+.outer{
+	width: 100%;
+	position: relative;
+	overflow: hidden;
+}
+.wrapper{
+	display: block;
+	left: 0;
+	width:3038px;
+}
+.owl_item{
+	width: 217px;
+	float: left;
+	margin: 3px;
+}
+.osalook .item img {
+    display: block;
+    width: 100%;
+    height: auto;
+}

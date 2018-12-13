@@ -1,0 +1,338 @@
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, input, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary, time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    /* vertical-align: baseline; */
+    background: transparent;
+}
+a {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+    text-decoration: none;
+    color: #000;
+}
+
+body{
+    background: url(../img/16.jpg) no-repeat;
+    background-size:1535px;
+}
+.popLogin {
+    height: 490px;
+    margin-left: -320px;
+    margin-top: -200px;
+    width: 650px;
+    overflow: hidden;
+    padding: 0;
+    position: fixed;
+    left: 35%;
+    top: 50%;
+    /*background-color: black;*/
+}
+.popModal{
+    width: 650px;
+    height: 490px;
+    margin-top: 30px;
+    overflow: hidden;
+    background-color: white;
+    position: relative;
+    /*opacity: 0.8;*/
+}
+.popModal .ad img{
+	display: block;
+    float: left;
+    width: 324px;
+}
+.login_submit{
+    margin-left: 355px;
+    background-color: white;
+    /*opacity:.8;*/
+}
+
+.login_submit .tab_list li a{
+    display: inline-block;
+    height: 103px;
+    color: #999;
+    font-size: 16px;
+    line-height: 103px;
+    padding: 0 10px;
+    border-top: 4px solid #c8a46d;
+}
+.login_submit .tab_list li {
+    display: inline-block;
+    padding-left: 36px;
+}
+.login_submit .login_item .ipt{
+    width: 260px;
+    height: 30px;
+    font-size: 13px;
+    border-bottom: 1px solid gray;
+    border-top: 1px solid white;
+    border-right: 1px solid white;
+    border-left: 1px solid white;
+    line-height: 30px;
+    margin-bottom: 24px;
+}
+#popLogin .tiptxt, #popPassword .tiptxt, #popReg .tiptxt {
+     display: none; 
+}
+.login_submit .tiptxt{
+    bottom: 0px;
+    left: 0;
+    margin-bottom: 0;
+    margin-top: 10px;
+    position: absolute;
+    width: 100%;
+}
+.mt20 {
+    margin-top: 20px;
+}
+.mt20 a{
+    color: #999;
+}
+.login_submit .login_item .login_btn {
+    display: block;
+    width: 260px;
+    height: 34px;
+    color: #fff;
+    line-height: 34px;
+    margin: 40px 0 0px;
+    background-color: #bda47b;
+    text-align: center;
+    letter-spacing: 3px;
+    font-size: 14px;
+}
+.login_submit .login_item .login_btn .denglu{
+    color: white;
+}
+.popbind .popModal:after {
+    content: "";
+    display: block;
+    visibility: hidden;
+    height: 0;
+    clear: both;
+}
+
+.login_submit .title{
+    text-align: center;
+    margin: 20px 0;
+    text-indent: -29px;
+    font-size: 14px;
+    color: gray;
+}
+.login_submit .title:before{
+    content: "";
+    display: inline-block;
+    width: 50px;
+    height: 1px;
+    background-color: #333;
+    margin-right: 10px;
+}
+.login_submit .title:after{
+    content: "";
+    display: inline-block;
+    width: 50px;
+    height: 1px;
+    background-color: #333;
+    margin-left: 10px;
+}
+.login_submit .link_sharea .icon_microblog:before {
+    background-image: url(../img/bds_weixin.png);
+    background-repeat: no-repeat;
+    background-size: 30px auto;
+    background-position: 0 3px;
+}
+
+.login_submit a.t_link{
+    color: #BEA47A;
+    display: block;
+    text-align: center;
+    text-decoration: underline;
+    text-indent: -29px;
+    padding-top: 40px;
+    font-size: 12px;
+}
+
+/*
+重置密码
+*/
+/*.popLogin {
+    height: 490px;
+    left: 50%;
+    margin-left: -327px;
+    margin-top: -245px;
+    top: 50%;
+    width: 650px;
+    overflow: hidden;
+    border: medium none;
+    bottom: 0;
+    outline: 0 none;
+    padding: 0;
+    position: fixed;
+    right: 0;
+    z-index: 1050;
+}
+
+.popModal, .popbind {
+    display: none;
+    border: medium none;
+    bottom: 0;
+    height: auto;
+    left: 0;
+    margin: 0;
+    outline: 0 none;
+    overflow-y: auto;
+    padding: 0;
+    position: fixed;
+    right: 0;
+    top: 0;
+    width: 100%;
+    z-index: 1050;
+}
+.popModal .popModal_con, .popbind .popModal_con {
+    font-family: "Microsoft YaHei","微软雅黑";
+    background-color: #ffffff;
+    box-sizing: border-box;
+    margin: 30px auto;
+    width: 650px;
+    height: 490px;
+    overflow: hidden;
+    zoom: 1;
+    position: relative;
+}
+.popModal .popModal_con .close, .popbind .popModal_con .close {
+    cursor: pointer;
+    position: absolute;
+    right: 6px;
+    top: 6px;
+    z-index: 9999999;
+    opacity: 1;
+}
+.close {
+    color: #ffffff;
+    cursor: pointer;
+    height: 25px;
+    overflow: hidden;
+    position: absolute;
+    right: 0;
+    top: 10px;
+}
+.popModal .popModal_con .close:before, .popbind .popModal_con .close:before {
+    content: "";
+    display: inline-block;
+    background: url(images/close.svg) no-repeat scroll 0 0;
+    width: 20px;
+    height: 20px;
+    background-size: 20px 20px;
+}
+.close:before {
+    content: "";
+    background: url(images/close.svg) no-repeat scroll 0 0;
+    width: 20px;
+    height: 20px;
+}
+.popModal .popModal_con .ad, .popbind .popModal_con .ad {
+    float: left;
+    width: 324px;
+}
+.popModal .popModal_con .login_submit, .popbind .popModal_con .login_submit {
+    margin-left: 324px;
+}
+.popModal .popModal_con .login_submit .tab_list li, .popbind .popModal_con .login_submit .tab_list li {
+    display: inline-block;
+    padding-left: 36px;
+}
+#popReg .tab_list li a {
+    height: 46px;
+    line-height: 46px;
+}
+.popModal .popModal_con .login_submit .tab_list li.active a, .popbind .popModal_con .login_submit .tab_list li.active a {
+    border-top: 4px solid #c8a46d;
+    color: #333;
+}
+.popModal .popModal_con .login_submit .tab_list li a, .popbind .popModal_con .login_submit .tab_list li a {
+    font-size: 16px;
+    height: 103px;
+    line-height: 103px;
+    display: inline-block;
+    color: #999;
+    padding: 0 10px;
+}
+.popModal .popModal_con .login_submit .login_item, .popbind .popModal_con .login_submit .login_item {
+    padding: 0 45px;
+}
+.popModal .popModal_con .login_submit .login_item, .popbind .popModal_con .login_submit .login_item {
+    padding: 0 45px;
+}
+.mCustomScrollBox {
+    position: relative;
+    overflow: hidden;
+    height: 100%;
+    max-width: 100%;
+    outline: none;
+    direction: ltr;
+}
+.mCSB_container.mCS_no_scrollbar_y.mCS_y_hidden {
+    margin-right: 0;
+}
+.mCSB_inside > .mCSB_container {
+    margin-right: 30px;
+}
+.mCSB_container {
+    overflow: hidden;
+    width: auto;
+    height: auto;
+}
+.popModal .popModal_con .login_submit .login_item .p_ground, .popbind .popModal_con .login_submit .login_item .p_ground {
+    position: relative;
+    padding: 0;
+}
+.popModal .popModal_con .login_submit .login_item .ipt, .popbind .popModal_con .login_submit .login_item .ipt {
+    width: 100%;
+    border-bottom: 1px solid #ccc;
+    height: 30px;
+    line-height: 30px;
+    margin-bottom: 24px;
+    font-size: 13px;
+}
+input, select {
+    vertical-align: middle;
+}
+#popLogin .tiptxt, #popPassword .tiptxt, #popReg .tiptxt {
+    display: none;
+}
+.popModal .popModal_con .login_submit .tiptxt, .popbind .popModal_con .login_submit .tiptxt {
+    bottom: 0px;
+    left: 0;
+    margin-bottom: 0;
+    margin-top: 10px;
+    position: absolute;
+    width: 100%;
+}
+
+.tiptxt {
+    font-family: STHeitiSC-Medium;
+    font-size: 12px;
+    color: #C31039;
+    letter-spacing: 0;
+    text-align: left;
+    margin: 0 auto;
+    width: 72%;
+    margin-bottom: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+*/

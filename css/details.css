@@ -1,0 +1,50 @@
+/*osalook*/
+.osalook{
+	display: block;
+	width: 100%;
+	position:relative;
+}
+.outer{
+	width: 100%;
+	position: relative;
+	overflow: hidden;
+}
+.wrapper{
+	display: block;
+	left: 0;
+	width:1200px;
+	margin: 0 auto;
+	display: table;
+}
+.owl_item{
+	width: 250px;
+	float: left;
+	margin: 40px;
+	padding-left: 50px;
+}
+.osalook .item img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+.osamain01imgfr{
+	display: block;
+	width: 100%;
+	height: 30px;
+	color: #fffaf8;
+	background-color: #f75d55;
+	padding-top:0.066667rem;
+	text-align: center;
+	font-size: 1.326667rem;
+}
+.osatext_item01{
+	text-indent: 10px;
+	display: block;
+	color: #cc3f36;
+	font-size: 20px;
+}
+.osatext_item02{
+	color: #838383;
+	font-size: 25px;
+	padding-left: 62px;
+}

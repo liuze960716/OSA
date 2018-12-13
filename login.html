@@ -1,0 +1,216 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>登录页面</title>
+<link rel="shortcut icon" href="img/bitbug_favicon (4).ico">
+<link rel="stylesheet" type="text/css" href="css/index.css">
+<link rel="stylesheet" type="text/css" href="css/login.css">
+
+</head>
+<body>
+<!-- header -->
+	<div id="header">
+		<div class="container header">
+			<div class="row">
+				<div class="first-nav">
+					<div class="menuli">
+						<a class="one" href="">品牌故事</a>
+						<div class="sec-nav">
+							<div class="fl">
+								<a href="">关于OSA</a>
+								<a href="">企业文化</a>
+							</div>
+						</div>
+					</div>
+					<div class="xiexian"><img src="img/headxie.png" /></div>
+					<div class="menuli">
+						<a class="one" href="">最新动态</a>
+						<div class="sec-nav">
+							<div class="fl">
+								<a href="">OSA新闻</a>
+								<a href="">OSA活动</a>
+							</div>
+						</div>
+					</div>
+					<div class="xiexian"><img src="img/headxie.png" /></div>
+					<div class="menuli">
+						<a class="one" href="">OSALOOK</a>
+						<div class="sec-nav">
+							<div class="fl">
+								<a href="">2018年冬</a>
+								<a href="">2018年秋</a>
+								<a href="">2018年夏</a>
+								<a href="">2018年春</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="">
+					<a href="#"><img class="logo" src="img/logo.jpg" alt="OSA,OSA服饰"/></a>
+				</div>
+				<div class="first-nav">
+					<div class="menuli">
+						<a class="one" href="">旗下品牌</a>
+						<div class="sec-nav">
+							<div class="fl">
+								<a href="men.html">OSA男装</a>
+								<a href="Ladies.html">OSA女装</a>
+								<a href="Kids.html">OSA童装</a>
+							</div>
+						</div>
+					</div>
+					<div class="xiexian"><img src="img/headxie.png" /></div>
+					<div class="menuli">
+						<a class="one" href="">官方商城</a>
+					</div>
+					<div class="xiexian"><img src="img/headxie.png" /></div>	
+					<div class="menuli">
+						<a class="one" href="">联系我们</a>
+						<div class="sec-nav">
+							<div class="fl">
+								<a href="">加入OSA欧莎</a>
+								<a href="">对OSA欧莎说</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+<!-- 登录 -->
+	<div class="popLogin">
+  		<div class="popModal">
+		<!-- 图片 -->
+			<div class="ad">
+				<a href="" ><img src="img/43.jpg"></a>
+			</div>		
+			<div class="login_submit">
+	  			<div class="tabs">
+					<form  action="php/logincheck.php" method="post">
+		   				<ul class="tab_list">
+		      				<li><a id="generallogin" href="">登录</a></li>
+		      				<li><a id="quicklogin" href="">短信快捷登录</a></li>
+		    			</ul>
+			    		<div id="login-1" class="login_item">
+				      		<div class="p_ground">
+				        		<input type="text" name="login_name" class="ipt" placeholder="请输入用户名/手机号" onblur="">
+				        		<div class="tiptxt loginName">请输入用户名/手机号</div>
+				      		</div>
+
+			          		<div class="p_ground">
+				            	<input type="password" name="login_pwd"  class="ipt" placeholder="请输入密码">
+				            	<div class="tiptxt loginPwd" id="spanError">密码错误</div>
+			          		</div>
+
+			          		<div class="mt20">
+			          			<a id="psw_btn" href="">忘记密码？</a>
+			          		</div>
+			          		<a id="loginButton" class="login_btn" onclick="" href="">
+			          			<input type="submit" class="denglu" id="btnLogin" value="登录">
+			          		</a>
+			    		</div>
+					</form>
+	  			</div>
+
+		        <div class="title"><span>通过以下账号登录</span></div>
+
+			        <div class="link_share">
+				        <a class="icon_microblog" href=""></a>
+				        <a class="icon_alipay" href=""></a>
+			        </div>
+
+		        <div class="text-center"><a class="t_link reg_button" href="register.html">无账号？注册</a></div>
+
+			</div>
+  		</div>
+	</div>
+
+<!--end 找回密码-->
+	<!-- <div id="popReg" class="popLogin popModal" style="display: block;">
+	    <div class="popModal_con">
+	        <i class="close"></i>
+	        <div class="ad">
+	          <a href="http://www.aimer.com.cn/z/es/20181212index.shtml" target="_blank"><img src="http://img.aimer.com.cn/medias/2018/1206/33534.jpeg?1544064799329???alt=pc登录图"></a>
+
+	        </div>
+	        <div class="login_submit">
+	            <div class="tabs">
+	                <ul class="tab_list horizontal">
+	                    <li class="active"><a id="poplogin_register" href="#reg_1">注册</a></li>
+	                </ul>
+	                <div id="reg_1" class="login_item mCustomScrollbar _mCS_1 mCS_no_scrollbar" style="display: block;"><div id="mCSB_1" class="mCustomScrollBox mCS-light mCSB_vertical mCSB_inside" tabindex="0"><div id="mCSB_1_container" class="mCSB_container mCS_y_hidden mCS_no_scrollbar_y" style="position:relative; top:0; left:0;" dir="ltr">
+	                    <div class=" " style="max-height: 234px;">
+	                        <div class="p_ground">
+	                            <input name="register_name" type="text" class="ipt ipt_mobile" placeholder="请输入手机号码" onblur="checkNewLoginName()">
+	                            <div class="tiptxt registerName" style="margin-top:5px">请输入正确手机号码</div>
+	                        </div>                    
+	                        <div class="p_ground">
+	                            <input name="piccode" type="text" class="ipt ipt_yz" placeholder="请输入图片验证码">
+	                            <div class="refash_img" style="margin-top:4px">
+	                              <a class="yz_img" href="javascript:void(0)">
+	                                <img id="piccode" onclick="regfreshCode()" src="http://www.aimer.com.cn/authcode?width=77&amp;height=30&amp;size=16&amp;number=4&amp;x=2&amp;y=23&amp;source=register" style="cusor:pointer" class="mCS_img_loaded">
+	                              </a>
+	                              <a class="yz_reflash" href="javascript:void(0)">
+	                                <img src="http://img.aimer.com.cn/theme/201706/front/login/yz_reflash.jpg" onclick="regfreshCode()" style="cusor:pointer" class="mCS_img_loaded">
+	                              </a>
+	                            </div>
+	                            <div class="tiptxt piccode">图片验证码输入错误</div>
+	                        </div>
+	                        <div class="p_ground">
+	                            <input name="register_valid_mobile" type="text" class="ipt" placeholder="请输入验证码" style="width:150px">
+	                            <a class="send getRegCode" onclick="getRegCode()" href="javascript:void(0)" style="margin-top:2px">发送验证码</a>
+	                            <div class="tiptxt registerValidMobile">验证码错误</div>
+	                        </div>
+
+	                        <div class="p_ground">
+	                            <input name="register_pwd" type="password" class="ipt" placeholder="请输入密码(6-25位英文或数字)">
+	                            <div class="tiptxt registerPwd">请输入正确的密码</div>
+	                        </div>
+	                        <div class="p_ground" style="margin-top:5px;">
+	                          <label>注册爱慕官方商城会员即视为您已阅读并同意<a class="t_link" href="http://www.aimer.com.cn/help/member-guide-protocol.shtml" target="_blank">《爱慕服务协议》</a></label>
+	                        </div>
+	                    </div>
+	                    <a class="login_btn register_btn" style="margin-top:40px" onclick="subRegisterForm()" href="javascript:void(0)">注册</a>
+	                    <div class="text-center" style="margin-top:10px">
+	                       有账号？<a class="t_link reg_login_btn" href="javascript:void(0)">登录</a>
+	                    </div>                    
+	                </div><div id="mCSB_1_scrollbar_vertical" class="mCSB_scrollTools mCSB_1_scrollbar mCS-light mCSB_scrollTools_vertical" style="display: none;"><div class="mCSB_draggerContainer"><div id="mCSB_1_dragger_vertical" class="mCSB_dragger" style="position: absolute; min-height: 30px; top: 0px; height: 0px;" oncontextmenu="return false;"><div class="mCSB_dragger_bar" style="line-height: 30px;"></div></div><div class="mCSB_draggerRail"></div></div></div></div></div>
+	            </div>
+	            end tabs
+	        </div>
+	    </div>
+	</div> -->
+
+
+</body>
+</html>
+<script type="text/javascript" src="js/jquery-1.8.3.js"></script>
+<script type="text/javascript" src="js/index.js"></script>
+<script type="text/javascript" src="js/sliderjQuery.js" ></script>
+<!-- 
+<script type="text/javascript">
+	window.onload = function(){
+	
+	$("btnLogin").onclick = function(){
+		let xhr = new XMLHttpRequest();
+		xhr.open("post","php/logincheck02.php",true);
+		
+		xhr.onreadystatechange = function(){
+			if(xhr.readyState==4 && xhr.status==200){
+				if(xhr.responseText=="0"){
+					$("spanError").style.display = "block";
+				}else{
+					//保存cookie
+					addCookie("username",$("username").value,7);
+					location.href = "index.html";
+				}
+			} 
+		}	
+		xhr.setRequestHeader("Content-type","application/x-www-form-urlencoded");
+		let sendStr="username="+$("username").value+"&userpass="+$("userpass").value;
+		xhr.send(sendStr);
+	}
+}
+</script> -->

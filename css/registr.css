@@ -1,0 +1,165 @@
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, input, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary, time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    /* vertical-align: baseline; */
+    background: transparent;
+}
+a {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+    text-decoration: none;
+    color: #000;
+}
+body{
+    background: url(../img/16.jpg) no-repeat;
+    background-size:1535px;
+}
+.popLogin {
+    height: 490px;
+    margin-left: -320px;
+    margin-top: -200px;
+    width: 650px;
+    overflow: hidden;
+    padding: 0;
+    position: fixed;
+    /*left: 30%;*/
+    left: 45%;
+    top: 50%;
+    /*background-color: black;*/
+}
+
+.popLogin .popModal{
+    background-color: #ffffff;
+    box-sizing: border-box;
+    margin: 30px auto;
+    width: 650px;
+    height: 490px;
+    overflow: hidden;
+    zoom: 1;
+    position: relative;
+}
+
+.popLogin .popModal .ad{
+    float: left;
+    width: 324px;
+}
+.popModal .ad img{
+    display: block;
+    float: left;
+    width: 324px;
+}
+/*login_submit*/
+.popLogin .popModal .login_submit{
+    display: block;
+    margin-left: 324px;
+}
+/*login_item*/
+.login_submit .tab_list li{
+    display: inline-block;
+    padding-left: 128px;
+}
+.login_submit .tab_list li a {
+    height: 46px;
+    line-height: 46px;
+}
+.login_submit .login_item{
+    padding: 0 45px;
+}
+.login_submit .login_item .ipt{
+    width: 100%;
+    border-bottom: 1px solid #ccc;
+    height: 30px;
+    line-height: 30px;
+    margin-bottom: 5px;
+    font-size: 13px;
+    /*background-color: yellow;*/
+}
+
+.login_submit .login_item .tiptxt{
+    color: red;
+    height: 20px;
+    font-size: 14px;
+    line-height:20px;
+}
+/*密码*/
+.lck{
+    width: 100%;
+    height: 20px;
+    margin-left: 21px;
+    /*background-color: red;*/
+}
+#small{
+    display: inline-block;
+    width: 50px;
+    height: 20px;
+    padding-left: 6px;
+    padding-right: 6px;
+    text-align: center;
+    /*padding-top: 2px;*/
+    /*background-color: #ccc;*/
+}
+#yes{
+    display: inline-block;
+    width: 50px;
+    height: 20px;
+    text-align: center;
+    padding-left: 6px;
+    padding-right: 6px;
+    /*padding-top: 2px;*/
+    /*background-color: #ccc;*/
+}
+#strong{
+    display: inline-block;
+    width: 50px;
+    height: 20px;
+    text-align: center;
+    padding-left: 6px;
+    padding-right: 6px;
+    /*padding-top: 2px;*/
+    /*background-color: #ccc;*/
+}
+
+
+.login_submit .login_item .labtxt{
+    display: block;
+    color: black;
+    font-size: 12px;
+    padding-top: 8px;
+    padding-left: : 5px;
+
+}
+.login_submit .login_item .t_link{
+    color: red;
+    font-size: 12px;
+    text-align: center;
+}
+.login_submit .login_item .login_btn{
+    display: block;
+    width: 100%;
+    height: 34px;
+    line-height: 34px;
+    color: white;
+    background-color: #bda47b;
+    text-align: center;
+    font-size: 14px;
+    letter-spacing: 3px;
+    margin-top: 8px;
+}
+.login_submit .login_item .reg_button{
+    display: block;
+    width: 100%;
+    height: 14px;
+    font-size: 12px;
+    text-align: center;
+    margin-top: 5px;
+}
+.login_submit .login_item .reg_button a{
+    color: #bda47b;
+}
