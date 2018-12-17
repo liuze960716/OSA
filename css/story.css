@@ -1,0 +1,50 @@
+.bannerm img{
+	width: 100%;
+	margin-top: -20px;
+
+}
+/*crumbs*/
+#crumbs{
+	padding: 25px 0;
+}
+.crumbs{
+	padding-right: 15px;
+	padding-left: 15px;
+	margin-right: auto;
+	margin-right: auto;
+}
+.hengline{
+	width: 100%;
+	height: 1px;
+	color: #eee;
+}
+.crumbs_li{
+	width: 50%;
+	height: 30px;
+	margin-left: 170px
+}
+.crumbs_li a {
+    color: #333;
+    font-size: 18px;
+    line-height: 32px;
+    margin-right: 56px;
+    display: block;
+    float: left;
+	font-size: 17px;
+}
+.crumbs_li .hover{
+    color: #008ddd;
+    background: url(../img/borderbottom.jpg) no-repeat left bottom;
+}
+.crumbs_con{
+	width: 50%;
+	text-align: right;
+    font-size: 18px;
+    color: #666;
+    padding-right: 220px;
+}
+.crumbs_con a{
+	color: #666;
+	margin-left: 3px;
+	font-size: 14px;
+}

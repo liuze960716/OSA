@@ -105,19 +105,13 @@
 		<div class="meta">
 			<div class="clear">
 				<div class="gallery">
-					
-
-
-
-
-
-
+	
 					<div class="exzoom" id="exzoom"> 
      					 <!--大图区域-->
 					    <div class="exzoom_img_box">
 					        <ul class='exzoom_img_ul'>
-					          <li><img src="img/128001.jpg"/></li>
 					          <li><img src="img/128002.jpg"/></li>
+					          <li><img src="img/128004.jpg"/></li>
 					          <li><img src="img/128003.jpg"/></li>
 					          <li><img src="img/128004.jpg"/></li>
 					          <li><img src="img/128005.jpg"/></li>
@@ -125,31 +119,7 @@
 					    </div>
 					      <!--缩略图导航-->
 					      <div class="exzoom_nav"></div>
-					     
 					</div>
-
-
-
-
-
-
-					<!-- <div class="booth">
-
-						<a href="" >
-							<span>
-								<img id="bigBox" src="img/O1CN01LUI9xr1etz1VXqqVD_!!0-item_pic.jpg" class="lens">
-								<span class="zoomIcon" id="mirrorBox"></span>
-								<span id="showBox"></span>
-								<span class="wrap"></span>
-							</span>
-						</a>
-
-					</div> -->
-
-
-					
-
-
 					<!-- <div class="thumb">
 						<div class="content">
 							<ul class="UIthumb">
@@ -227,18 +197,9 @@
      	        				<dt class="tb-metatit">运费</dt>
      	        				<dd>
      	        					<div class="postAge">
-     	        						<span class="deliveryAdd">
-     	        							广东深圳
-     	        						</span>
-     	        							至
-     	        						<span class="addr">
-     	        							<span class="tri_1">
-     	        								北京
-     	        							</span>
-     	        						</span>
-     	        						<div class="info">
-     	        							<p><span>快递: 0.00 </span></p>
-     	        						</div>
+     	        						<span class="deliveryAdd">广东深圳</span>至
+     	        						<span class="addr"><span class="tri_1">北京</span></span>
+     	        						<div class="info"><p><span>快递: 0.00 </span></p></div>
      	        					</div>
      	        				</dd>
      	        			</dl>
@@ -291,15 +252,16 @@
 											</ul>
 										</dd>
 									</dl>
+									<div class="tb-prop tm-clear" style="display: none;"></div>
 									<dl class="tb-amount" style="padding-top: 30px;">
 										<dt class="tb-metatit">数量</dt>
 										<dd>
-											<span class="tb-amount-widget mui-amount-wrap">
+											<span class="amountWidget">
 
 												<input type="text" class="tb-text" value="1" maxlength="8" title="请输入购买量">
-												<span class="mui-amount-btn">
-									                <span class="mui-amount-increase"></span>
-									                <span class="mui-amount-decrease"></span>
+												<span class="amount_btn">
+									                <span class="increase"></span>
+									                <span class="decrease"></span>
 												</span>
 												<span class="mui-amout-unit">件</span>
 											</span>
@@ -307,6 +269,57 @@
 											<span class="tb-hidden">库存185件</span>
 										</dd>
 									</dl>
+									<dl class="tb-prop tm-clear tb-hidden" style="display: block;">
+										<dt class="tb-metatit">花呗分期</dt>
+										<dd>
+											<div class="msg_clean">
+												<div class="attention">
+													<a href="login.html">登录</a>后确认是否享有该服务 
+													<a href="" target="_blank">什么是花呗分期</a>
+													<s class="mui-msg-icon"></s>
+												</div>
+											</div>
+											<ul class="tm-clear">
+												<li data-key="3p" class="progressive-item">
+													<a href="#">
+														<span class="j-content">
+															<span class="tm-msg"><em>¥</em>
+																<strong>442.95</strong>x3期
+															</span>
+															<br>
+															<span class="tm-feeDesc">(含手续费)</span>
+														</span>
+													</a>
+													<!-- <i>已选中</i> -->
+												</li>
+												<li data-key="6p" class="progressive-item">
+													<a href="#">
+														<span class="j-content">
+															<span class="tm-msg"><em>¥</em>
+																<strong>226.24</strong>x6期
+															</span>
+															<br>
+															<span class="tm-feeDesc">(含手续费)</span>
+														</span>
+													</a>
+														<!-- <i>已选中</i> -->
+													</li>
+													<li data-key="12p" class="progressive-item">
+														<a href="#">
+															<span class="j-content">
+																<span class="tm-msg"><em>¥</em>
+																	<strong>116.36</strong>x12期
+																</span>
+																<br>
+																<span class="tm-feeDesc">(含手续费)</span>
+															</span>
+														</a>
+														<!-- <i>已选中</i> -->
+													</li>
+												</ul>
+											</dd>
+									</dl>
+
 									<div class="tb-action tm-clear">
 										<div class="tb-btn-buy tb-btn-sku">
 											<a  href="#" title="点击此按钮，到下一步确认购买信息。">立即购买
@@ -314,7 +327,7 @@
 											</a>
 										</div>
 										<div class="tb-btn-basket tb-btn-sku">
-											<a href="#">加入购物车
+											<a href="shopping.html">加入购物车
 												<span class="ensureText" style="display: none;">确认</span>
 											</a>
 										</div>
@@ -335,13 +348,57 @@
 								<li class="internal" style="display: block;">         
 									<div class="img">        
 										<a class="ALDCLS-act" href="" target="_blank">        
-											<img src="">        
+											<img src="img/520.jpg">        
 										</a>                                                    
-										<p class="look_price">999.00</p>                                                
+										<p class="look_price">￥999.00</p>                                                
+									</div>               
+								</li>
+								<li class="internal" style="display: block;">         
+									<div class="img">        
+										<a class="ALDCLS-act" href="" target="_blank">        
+											<img src="img/520.jpg">        
+										</a>                                                    
+										<p class="look_price">￥1299.00</p>                                                
+									</div>               
+								</li>
+								<li class="internal" style="display: block;">         
+									<div class="img">        
+										<a class="ALDCLS-act" href="" target="_blank">        
+											<img src="img/520.jpg">        
+										</a>                                                    
+										<p class="look_price">￥1399.00</p>                                                
+									</div>               
+								</li>
+								<li class="internal" style="display: block;">         
+									<div class="img">        
+										<a class="ALDCLS-act" href="" target="_blank">        
+											<img src="img/520.jpg">        
+										</a>                                                    
+										<p class="look_price">￥1499.00</p>                                                
+									</div>               
+								</li>
+								<li class="internal" style="display: block;">         
+									<div class="img">        
+										<a class="ALDCLS-act" href="" target="_blank">        
+											<img src="img/520.jpg">        
+										</a>                                                    
+										<p class="look_price">￥1599.00</p>                                                
+									</div>               
+								</li>
+								<li class="internal" style="display: block;">         
+									<div class="img">        
+										<a class="ALDCLS-act" href="" target="_blank">        
+											<img src="img/520.jpg">        
+										</a>                                                    
+										<p class="look_price">￥1699.00</p>                                                
 									</div>               
 								</li>
 							</ul>
 						</div>
+						<ul class="trigger">        
+							<li class="prev_btn"><!-- 上一个 --></li>        
+							<li class="next_btn"><!-- 下一个 --></li>       
+						</ul>
 					</div>
 				</div>
 			</div>

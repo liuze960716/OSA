@@ -3,7 +3,13 @@ li, ul {
     padding: 0;
     list-style: none;
 }
-
+dl {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
 
 
 .detail{
@@ -267,7 +273,7 @@ li, ul {
     position: relative;
     overflow: hidden;
     cursor: pointer;
-    left: 85px;
+    /*left: 85px;*/
 }
 .panel .tb-metatit {
     color: #999;
@@ -282,7 +288,7 @@ li, ul {
     font-size: 13px;
 }
 .detail .panel .shopPromo .more {
-    color: #8d8d8d;
+    color: #b5621b;
     cursor: pointer;
     position: absolute;
     right: 10px;
@@ -454,13 +460,13 @@ li, ul {
     background-position: -406px -41px;
     color: #666;
 }
-.tb-amount-widget .mui-amount-btn {
+.amountWidget .amount_btn {
     display: inline-block;
     vertical-align: middle;
 }
 
-.tb-amount-widget .mui-amount-decrease, 
-.tb-amount-widget .mui-amount-increase {
+.amountWidget .decrease, 
+.amountWidget .increase {
     width: 16px;
     height: 12px;
     overflow: hidden;
@@ -470,8 +476,9 @@ li, ul {
     line-height: 12px;
     font-size: 16px;
     cursor: pointer;
+    margin-top: 3px;
 }
-.tb-amount-widget .mui-amount-unit {
+.amountWidget .mui-amount-unit {
     vertical-align: middle;
     margin-left: 5px;
 }
@@ -480,14 +487,29 @@ li, ul {
     margin-left: 1.2em;
     font-size: 12px;
 }
-
-
+.msg_clean{
+    position: relative;
+    display: inline-block;
+    border: 0;
+    padding-left: 24px;
+    background: 0 0;
+}
+.attention{
+    line-height: 16px;
+    color: #666;
+    padding: 3px 10px 3px 5px;
+    margin:-1px;
+    padding-left: 0;
+    border:0;
+    font-size: 12px;
+}
 .tb-action {
     /*clear: both;*/
     padding: 10px 0 0 66px;
     margin: 10px 0 0;
     height: 50px;
-    margin-top: 190px;
+    /*margin-top: 190px;*/
+
 }
 
 .tb-btn-sku {
@@ -523,7 +545,7 @@ li, ul {
 }
 
 /*放大镜*/
-#bigBox{
+/*#bigBox{
     position:relative;
     width:420px;
     height:420px;
@@ -539,7 +561,7 @@ li, ul {
     height:150px;
     background-color:pink;
     opacity:0.5;
-    /*display:none;*/
+    display:none;
 }
 
 #showBox{
@@ -552,12 +574,11 @@ li, ul {
     background-size:1000px 680px;
     background-position:-100px -100px;
     z-index: 500;
-    /*display:none;*/
-    /*background-color: red;*/
-}
+    display:none;
+    background-color: red;
+}*/
 
-
-
+/*放大镜*/
 #exzoom {
     width: 421px;
     margin: 20px auto;
@@ -680,4 +701,89 @@ li, ul {
 }
 .exzoom .exzoom_img_ul_outer .exzoom_img_ul li img {
     width: 100%;
+}
+
+
+
+
+.skuRight{
+    width: 200px;
+    height:100%;
+    right: -200px;
+    position: absolute;
+    top: 0;
+    border-left: 1px solid #f2f2f2;
+}
+.inner{
+    height: 100%;
+    width: 200px;
+
+}
+.carousel{
+    position: relative;
+    padding: 10px 12px 2px 13px;
+}
+.wrapCon{
+    position: relative;
+    height:480px;
+    overflow: hidden; 
+}
+.switchable{
+    width: 100%;
+}
+.internal{
+    height: 160px;
+}
+.switchable img{
+    max-height: 140px;
+    max-width: 140px;
+}
+.internal .img{
+    position: relative;
+    width: 140px;
+    height: 140px;
+    overflow: hidden;
+    margin: 0 auto;
+    background-color:#f8f8f8;
+    vertical-align: middle;
+    line-height: 120px; 
+}
+.ALDCLS-act{
+    display: block;
+    text-align: center;
+    color: #62574e;
+    zoom: 1;
+    cursor: pointer;
+}
+.look_price {
+    width: 100%;
+    position: absolute;
+    left: 15px; 
+    bottom: 0;
+    font-family: Arial;
+    line-height: 20px;
+    background-color: rgba(255,255,255,.8);
+    text-align: center;
+    font-size: 12px;
+}
+.trigger{
+    overflow: hidden;
+    padding: 0 42px;
+    /*margin-left: 13px;*/
+}
+.trigger .prev_btn{
+    width: 27px;
+    height: 27px;
+    background-color: transparent;
+    background: url(../img/80112.png) no-repeat;
+    float: left;
+    background-position: 0 0;
+}
+.trigger .next_btn{
+    width: 27px;
+    height: 27px;
+    background-color: transparent;
+    background: url(../img/80112.png) no-repeat;
+    float: right;
+    background-position: 0 -29px;
 }

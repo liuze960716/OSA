@@ -27,7 +27,6 @@
 	    </ul>
 	</div>
 
-
 <!-- header -->       
 	<div id="header">
 		<div class="container header">
@@ -102,7 +101,7 @@
 	<div class="osalook">
 			<div class="outer">
 				<div class="wrapper">
-
+<!-- 
 					<div class="owl_item">
 						<div class="item">
 							<a href="commodity.html" target="_blank">
@@ -117,10 +116,10 @@
 								</span>
 							</a>
 						</div>
-					</div>
-
+					</div> -->
+<!-- 
 					<div class="owl_item">
-						<div class="item">
+						-- <div class="item">
 							<a href="commodity.html" target="_blank">
 								<img src="images/20160906094046624.jpg">
 								<span class="osamain01imgfr">抢加购物车</span>
@@ -132,10 +131,10 @@
 									</span>
 								</span>
 							</a>
-						</div>
-					</div>
+						</div> 
+					</div> -->
 
-					<div class="owl_item">
+					<!-- <div class="owl_item">
 						<div class="item">
 							<a href="commodity.html" target="_blank">
 								<img src="images/20161027052332423.jpg">
@@ -150,9 +149,10 @@
 							</a>
 						</div>
 					</div>
-
+ -->
 				</div>
-				<div class="wrapper">
+
+				<!-- <div class="wrapper">
 
 					<div class="owl_item">
 						<div class="item">
@@ -201,7 +201,8 @@
 							</a>
 						</div>
 					</div>
-				</div>
+
+				</div> -->
 			</div>
 		</div>
 
@@ -281,6 +282,46 @@
 </body>
 </html>
 <script type="text/javascript" src="js/jquery-1.8.3.js"></script>
-<script type="text/javascript" src="js/index.js"></script>
 <script type="text/javascript" src="js/jquery.SuperSlide.2.1.1.js"></script>
+<script type="text/javascript" src="js/index.js"></script>
+<script type="text/javascript">
+//从后端获取数据
+$(function(){   
+    $.ajax({
+        type:"post",
+        url:"php/getGoodsList.php",
+        async:true,
+        data:{},
+        success:function(data){
+        	console.log(data);
+        	var dataObj = JSON.parse(data);
+            for(i=0; i<3;i++){
+           	let str = "<div class='owl_item'><div class='item'>\
+			 		   <a href ='commodity.html' target ='_black'>\
+			 		   <img src ='"+dataObj[i].goodsImg+"'>\
+			 		   <span class='osamain01imgfr'>抢加购物车</span>\
+			 		   <span class ='osatext_item01'>"+dataObj[i].beiyong1+"<br/>\
+			 		   <span class='osatext_item02'</span>"+dataObj[i].beiyong2+"</span></a>\
+			 		   </div>";
 
+                $(".wrapper").append(str);
+            }
+        }
+    })
+})
+
+
+
+//点击商品，到详情页面
+$(function(){
+    $(".wrapper").on("click","li",function(){
+        //点击的当前li的下标
+        let goodsId = $(this).attr("id");
+        console.log(goodsId);
+        localStorage.goodsId = goodsId;
+        location.href = "commodity.html";
+        
+    })
+})
+			
+</script>

@@ -47,7 +47,7 @@ img{
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	margin-top: 20px;
+	/*margin-top: 20px;*/
 }
 #header .first-nav{
 	position:static;
@@ -78,7 +78,10 @@ img{
 }
 /*logo*/
 #header .logo{
-	 float: left;
+	float: left;
+	width: 138px;
+	height: 38px;
+
 }
 #header .sec-nav{ 
 	position:absolute;
